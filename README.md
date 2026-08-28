@@ -43,7 +43,8 @@ With the mesh heads obtained from VHAP, we can start training Gaussian head avat
 
 ## Acknowledgments
 
-We thank the authors of [VHAP](https://github.com/ShenhanQian/VHAP) and [GaussianAvatars](https://github.com/ShenhanQian/GaussianAvatars) for their contributions to multi-view Gaussian head avatars. Part of this work is built upon their open-source efforts. We also thank [Haoran Li](https://github.com/Haoran-Li-0708) and Xueni Guo for contributing portrait data.
+We thank the authors of [VHAP](https://github.com/ShenhanQian/VHAP) and [GaussianAvatars](https://github.com/ShenhanQian/GaussianAvatars) for their contributions to multi-view Gaussian head avatars. Part of this work is built upon their open-source efforts.
+We also thank [Haoran Li](https://github.com/Haoran-Li-0708) and Xueni Guo for contributing portrait data.
 
 ## License
 
