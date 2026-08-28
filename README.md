@@ -33,7 +33,7 @@ We use the camera poses estimated by VGGT to train VHAP. For specific instructio
 
 After this step, we obtain the FLAME mesh heads that will be used for Gaussian training.
 
-### Step 3. Gaussian Training
+### Step 3. Gaussian Rendering
 
 <div align="center">
 <img src="static/videos/high_renders.gif" alt="AnyAvatar high-fidelity renders" width="40%"/>
