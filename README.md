@@ -2,6 +2,8 @@
 
 # [ACM MM 2026 Poster] AnyAvatar: High-Fidelity Gaussian Head Avatars under Uncalibrated Camera Settings
 
+<img src="static/images/pipeline.png" alt="AnyAvatar" width="100%"/>
+
 [Project](https://aishiweilai.github.io/AnyAvatar.github.io/) / [Paper](https://github.com/AISHIWEILAI/AnyAvatar)
 
 **Yujian Liu**<sup>1,2,&#42;</sup>, **Dongxu Shen**<sup>3,&#42;</sup>, **Haoran Li**<sup>1,&#42;</sup>, **Yuting Liu**<sup>1</sup>, **Chuang Chen**<sup>1</sup>, **Xinyi Jiang**<sup>1</sup>, **Zhupeng Jiang**<sup>1</sup>, **Peng Cao**<sup>4,†</sup>, **Shidang Xu**<sup>2,†</sup>, **Xiaoli Liu**<sup>1,†</sup>
@@ -21,10 +23,18 @@ In our implementation, we use the **first frame of the neutral expression** to e
 
 ### Step 2. VHAP Training
 
+<div align="center">
+<img src="static/images/Mesh.png" alt="FLAME mesh heads from VHAP" width="100%"/>
+</div>
+
 We use the camera poses estimated by VGGT to train VHAP. For specific instructions, please refer to [VHAP/README.md](VHAP/README.md).
 
 After this step, we obtain the FLAME mesh heads that will be used for Gaussian training.
 
 ### Step 3. Gaussian Training
+
+<div align="center">
+<img src="static/videos/high_renders.gif" alt="AnyAvatar high-fidelity renders" width="40%"/>
+</div>
 
 With the mesh heads obtained from VHAP, we can start training Gaussian head avatars. For specific instructions, please refer to [AnyAvatar/README.md](AnyAvatar/README.md).
