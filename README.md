@@ -9,7 +9,7 @@
 <sup>1</sup> AiShiWeiLai AI Research  <sup>2</sup> South China University of Technology  
 <sup>3</sup> The Hong Kong University of Science and Technology (Guangzhou)  <sup>4</sup> Northeastern University
 
-[Project](https://AISHIWEILAI/AnyAvatar.github.io/) / [Paper](https://github.com/AISHIWEILAI/AnyAvatar)
+[Project](https://aishiweilai.github.io/AnyAvatar.github.io/) / [Paper](https://github.com/AISHIWEILAI/AnyAvatar.github.io)
 
 <img src="static/images/pipeline.png" alt="AnyAvatar" width="100%"/>
 
