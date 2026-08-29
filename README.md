@@ -23,6 +23,8 @@ Obtain coarse camera poses with [VGGT](https://github.com/facebookresearch/vggt)
 
 In our implementation, we use the **first frame of the neutral expression** to estimate camera poses.
 
+Example VGGT poses: [Baidu Pan](https://pan.baidu.com/s/1dDVuyI60KdtOqlK6nG8ddQ?pwd=0624) (extraction code: `0624`).
+
 ### Step 2. VHAP Training
 
 <div align="center">
@@ -33,6 +35,8 @@ We use the camera poses estimated by VGGT to train VHAP. For specific instructio
 
 After this step, we obtain the FLAME mesh heads that will be used for Gaussian training.
 
+Example VHAP export: [Baidu Pan](https://pan.baidu.com/s/1P7GILUHpOGcSJvwvzMld6g?pwd=0624) (extraction code: `0624`).
+
 ### Step 3. Gaussian Rendering
 
 <div align="center">
@@ -40,6 +44,8 @@ After this step, we obtain the FLAME mesh heads that will be used for Gaussian t
 </div>
 
 With the mesh heads obtained from VHAP, we can start rendering Gaussian head avatars. For specific instructions, please refer to [AnyAvatar/README.md](AnyAvatar/README.md).
+
+Example Gaussian training results: [Baidu Pan](https://pan.baidu.com/s/1eyQ2xnKSrWMgQdL62IWbeA?pwd=0624) (extraction code: `0624`).
 
 ## Acknowledgments
 
